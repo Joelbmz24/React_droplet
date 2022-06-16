@@ -1,0 +1,14 @@
+.todo-list-selector {
+  margin-bottom: 30px;
+}
+
+.todo-list-selector__buttons-group {
+  display: flex;
+}
+
+.todo-list-selector__button {
+  margin-right: 10px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
