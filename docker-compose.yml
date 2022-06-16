@@ -1,0 +1,9 @@
+version: '2.0'
+services:
+  app:
+    container_name: todolist
+    restart: always
+    image: todo-list
+    build: .
+    ports:
+      - "3000:3000"
