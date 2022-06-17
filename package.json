@@ -12,7 +12,7 @@
     "yarn": "^1.22.19"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
